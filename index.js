@@ -15,4 +15,12 @@ export const dataOrigin = {
   2: '企业',
 };
 
+export const payWay = {
+  1: '微信',
+  2: '支付宝',
+  3: '银行卡',
+  4: 'paypal',
+  5: '其他',
+};
+
 export default {};
