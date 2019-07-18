@@ -1,3 +1,5 @@
+import * as ulms from './ulms';
+import * as pcms from './pcms';
 export const sex = {
   0: '其他',
   1: '男',
@@ -23,4 +25,7 @@ export const payWay = {
   5: '其他',
 };
 
-export default {};
+export default {
+  ulms,
+  pcms,
+};
