@@ -18,6 +18,11 @@ export const dataOrigin = {
   2: '企业',
 };
 
+export const origin = {
+  web: 'web网站',
+  offline: '线下',
+};
+
 export const payWay = {
   1: '微信',
   2: '支付宝',
