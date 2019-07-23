@@ -24,8 +24,8 @@ export const origin = {
 };
 
 export const payWay = {
-  1: '微信',
-  2: '支付宝',
+  1: '支付宝',
+  2: '微信',
   3: '银行卡',
   4: 'paypal',
   5: '其他',
