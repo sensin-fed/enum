@@ -34,6 +34,7 @@ export const dataOrigin = {
 export const origin = {
   web: 'web网站',
   offline: '线下',
+  h5: 'H5',
 };
 
 /**
