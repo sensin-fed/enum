@@ -1,3 +1,10 @@
+/*
+ * @Description:
+ * @Author: hemanyuan
+ * @Date: 2019-07-25 12:22:26
+ * @LastEditors: hemanyuan
+ * @LastEditTime: 2019-08-08 14:08:31
+ */
 import * as ulms from './ulms';
 import * as pcms from './pcms';
 
@@ -18,7 +25,6 @@ export const wagesUnit = {
   2: '月',
   3: '年',
 };
-
 
 /**
  * @description 数据来源枚举
@@ -46,6 +52,15 @@ export const payWay = {
   3: '银行卡',
   4: 'paypal',
   5: '其他',
+};
+
+/**
+ * @description 订单状态
+ */
+export const orderStatus = {
+  1: '待付款',
+  2: '已付款',
+  3: '已关闭',
 };
 
 /**
