@@ -2,8 +2,8 @@
  * @Description:
  * @Author: hemanyuan
  * @Date: 2019-07-25 12:22:26
- * @LastEditors: hemanyuan
- * @LastEditTime: 2019-08-08 14:08:31
+ * @LastEditors: liujians
+ * @LastEditTime: 2019-08-14 10:00:43
  */
 import * as ulms from './ulms';
 import * as pcms from './pcms';
@@ -38,7 +38,7 @@ export const dataOrigin = {
  * @description 来源枚举
  */
 export const origin = {
-  web: 'web网站',
+  web: 'web',
   offline: '线下',
   h5: 'H5',
 };
