@@ -3,7 +3,7 @@
  * @Author: hemanyuan
  * @Date: 2019-07-25 12:22:26
  * @LastEditors: liujians
- * @LastEditTime: 2019-08-14 10:00:43
+ * @LastEditTime: 2019-08-14 10:12:05
  */
 import * as ulms from './ulms';
 import * as pcms from './pcms';
@@ -40,7 +40,7 @@ export const dataOrigin = {
 export const origin = {
   web: 'web',
   offline: '线下',
-  h5: 'H5',
+  h5: 'h5',
 };
 
 /**
