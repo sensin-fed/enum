@@ -3,7 +3,7 @@
  * @Author: hemanyuan
  * @Date: 2019-08-26 11:42:11
  * @LastEditors: hemanyuan
- * @LastEditTime: 2019-08-26 11:42:22
+ * @LastEditTime: 2019-08-26 11:51:08
  */
 export const commonRouter = [
   '/',
