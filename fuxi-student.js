@@ -170,66 +170,75 @@ export const globalFormDataFooterFooter = [
 ];
 
 // 渲染表单的条件
-export const formData = {
-  baseHeader: [
-    {
-      type: 1,
-      id: $formFieldsName.NAME,
-      name: '姓名',
-      value: '',
-    },
-    {
-      type: 1,
-      id: $formFieldsName.TELPHONE,
-      name: '手机号',
-      value: '',
-    },
-    {
-      type: 2,
-      id: $formFieldsName.SIGN_PROJECT,
-      name: '报名项目',
-      value: '',
-    },
-    {
-      type: 2,
-      id: $formFieldsName.PACKAGE,
-      name: '套餐',
-      value: '',
-    },
-  ],
-  baseFooter: [
-    ...globalFormDataFooterHeader,
-    {
-      type: 3,
-      id: $formFieldsName.LATEST_FOLLOWUP_TIME,
-      name: '最新跟进时间',
-      value: '',
-    },
-    ...globalFormDataFooterFooter,
-    {
-      type: 1,
-      id: $formFieldsName.SELECTED_CLASS_INTHEMONTH,
-      name: '当月选课',
-      value: '',
-    },
-    {
-      type: 1,
-      id: $formFieldsName.CURRENT_MONTH_COURSE,
-      name: '当月课程',
-      value: '',
-    },
-    {
-      type: 1,
-      id: $formFieldsName.ONEVSONE_CLASS_ELIMINATION,
-      name: '1v1消课',
-      value: '',
-    },
-    {
-      type: 1,
-      id: $formFieldsName.LITTER_CLASSCOURSE,
-      name: '小班课消课',
-      value: '',
-    },
-  ],
-  startBaseFooter: [...globalFormDataFooterHeader, ...globalFormDataFooterFooter],
+export const formData = (type, productList, productPackageList, productListOnChange) => {
+  if (type === 'baseHeader') {
+    return [
+      {
+        type: 1,
+        id: $formFieldsName.NAME,
+        name: '姓名',
+        value: '',
+      },
+      {
+        type: 1,
+        id: $formFieldsName.TELPHONE,
+        name: '手机号',
+        value: '',
+      },
+      {
+        type: 2,
+        id: $formFieldsName.SIGN_PROJECT,
+        name: '报名项目',
+        value: '',
+        options: productList,
+        onChange: productListOnChange,
+      },
+      {
+        type: 2,
+        id: $formFieldsName.PACKAGE,
+        name: '套餐',
+        value: '',
+        options: productPackageList,
+      },
+    ];
+  }
+  if (type === 'baseFooter') {
+    return [
+      ...globalFormDataFooterHeader,
+      {
+        type: 3,
+        id: $formFieldsName.LATEST_FOLLOWUP_TIME,
+        name: '最新跟进时间',
+        value: '',
+      },
+      ...globalFormDataFooterFooter,
+      {
+        type: 1,
+        id: $formFieldsName.SELECTED_CLASS_INTHEMONTH,
+        name: '当月选课',
+        value: '',
+      },
+      {
+        type: 1,
+        id: $formFieldsName.CURRENT_MONTH_COURSE,
+        name: '当月课程',
+        value: '',
+      },
+      {
+        type: 1,
+        id: $formFieldsName.ONEVSONE_CLASS_ELIMINATION,
+        name: '1v1消课',
+        value: '',
+      },
+      {
+        type: 1,
+        id: $formFieldsName.LITTER_CLASSCOURSE,
+        name: '小班课消课',
+        value: '',
+      },
+    ];
+  }
+  if (type === 'startBaseFooter') {
+    return [...globalFormDataFooterHeader, ...globalFormDataFooterFooter];
+  }
 };
