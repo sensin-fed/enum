@@ -5,7 +5,7 @@ export const lessonType = {
 };
 
 export const newLessonType = {
-  1: '1v1',
+  1: '1v1课程',
   2: '小班课',
   3: '录播课',
   4: '群面模拟',
