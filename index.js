@@ -12,7 +12,7 @@ import * as pcms from './pcms';
  * @description 性别枚举
  */
 export const sex = {
-  0: '其他',
+  0: '其它',
   1: '男',
   2: '女',
 };
@@ -51,7 +51,7 @@ export const payWay = {
   2: '微信',
   3: '银行卡',
   4: 'paypal',
-  5: '其他',
+  5: '其它',
 };
 
 /**
