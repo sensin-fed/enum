@@ -5,8 +5,8 @@
  * @LastEditors: liujians
  * @LastEditTime: 2019-08-14 10:12:05
  */
-import * as ulms from './ulms';
-import * as pcms from './pcms';
+import * as ulms from './ulms'
+import * as pcms from './pcms'
 
 /**
  * @description 性别枚举
@@ -14,8 +14,8 @@ import * as pcms from './pcms';
 export const sex = {
   0: '其它',
   1: '男',
-  2: '女',
-};
+  2: '女'
+}
 
 /**
  * @description 时间单位枚举
@@ -23,16 +23,16 @@ export const sex = {
 export const wagesUnit = {
   1: '天',
   2: '月',
-  3: '年',
-};
+  3: '年'
+}
 
 /**
  * @description 数据来源枚举
  */
 export const dataOrigin = {
   1: '网站',
-  2: '企业',
-};
+  2: '企业'
+}
 
 /**
  * @description 来源枚举
@@ -40,8 +40,8 @@ export const dataOrigin = {
 export const origin = {
   web: 'web',
   offline: '线下',
-  h5: 'h5',
-};
+  h5: 'h5'
+}
 
 /**
  * @description 支付方式枚举
@@ -51,8 +51,8 @@ export const payWay = {
   2: '微信',
   3: '银行卡',
   4: 'paypal',
-  5: '其它',
-};
+  5: '其它'
+}
 
 /**
  * @description 订单状态
@@ -60,13 +60,22 @@ export const payWay = {
 export const orderStatus = {
   1: '待付款',
   2: '已付款',
-  3: '已关闭',
-};
+  3: '已关闭'
+}
+
+/**
+ * @description 统一登录页个环境url
+ */
+export const passportUrl = {
+  dev: 'http://localhost:3004',
+  test: 'http://passport.test.sensin-tech.cn/',
+  production: 'https://passport.offerxiansheng.com'
+}
 
 /**
  * @description pcms和ulms里的私有枚举
  */
 export default {
   ulms,
-  pcms,
-};
+  pcms
+}

@@ -7,24 +7,24 @@
  */
 export const courseState = {
   1: '未上架',
-  2: '已上架',
-};
+  2: '已上架'
+}
 
 export const lessonType = {
   1: '教学内容',
-  2: '作业',
-};
+  2: '作业'
+}
 
 export const lessonTypeDetail = {
   1: '作业',
   2: '图文',
   3: '视频'
-};
+}
 
 export const orderState = {
   1: '待付款',
   2: '已付款',
-  3: '已关闭',
-};
+  3: '已关闭'
+}
 
-export default {};
+export default {}
