@@ -11,4 +11,12 @@ export enum NewLessonType {
   '群面模拟' = 4,
 }
 
+export enum stageType {
+  '简历筛选' = 1,
+  '笔试中' = 2,
+  '面试中' = 3,
+  '获得offer' = 4,
+  '不匹配' = 5,
+}
+
 export default {};

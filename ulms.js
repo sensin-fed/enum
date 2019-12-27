@@ -19,4 +19,12 @@ export const offerRate = {
   5: '非常满意',
 };
 
+export const stageType = {
+  1: '简历筛选',
+  2: '笔试中',
+  3: '面试中',
+  4: '获得offer',
+  5: '不匹配',
+};
+
 export default {};
