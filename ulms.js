@@ -20,11 +20,30 @@ export const offerRate = {
 };
 
 export const stageType = {
+  1: '投递',
+  2: '笔试中',
+  3: '面试中',
+  4: '获得offer',
+  5: '不匹配',
+};
+
+export const stage = {
   1: '简历筛选',
   2: '笔试中',
   3: '面试中',
   4: '获得offer',
   5: '不匹配',
+};
+
+export const offerType = {
+  1: '待定',
+  2: '接受',
+  3: '拒绝',
+};
+
+export const interviewType = {
+  1: '单面',
+  2: '群面',
 };
 
 export default {};
