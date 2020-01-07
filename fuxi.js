@@ -16,7 +16,7 @@ export const jobType = {
 
 // 学员状态
 export const studentStatus = {
-  1: '待安排',
+  1: '入学中',
   2: '进行中',
   3: '已结课',
   4: '已休学',
