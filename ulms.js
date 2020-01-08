@@ -21,16 +21,16 @@ export const offerRate = {
 
 export const stageType = {
   1: '投递',
-  2: '笔试中',
-  3: '面试中',
+  2: '笔试',
+  3: '面试',
   4: '获得offer',
   5: '不匹配',
 };
 
 export const stage = {
   1: '简历筛选',
-  2: '笔试',
-  3: '面试',
+  2: '笔试中',
+  3: '面试中',
   4: '获得offer',
   5: '不匹配',
 };
