@@ -9,6 +9,7 @@ export const newLessonType = {
   2: '小班课',
   3: '录播课',
   4: '群面模拟',
+  5: '求职',
 };
 
 export const offerRate = {
