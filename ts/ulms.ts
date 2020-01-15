@@ -13,8 +13,8 @@ export enum NewLessonType {
 
 export enum stageType {
   '投递' = 1,
-  '笔试中' = 2,
-  '面试中' = 3,
+  '笔试' = 2,
+  '面试' = 3,
   '获得offer' = 4,
   '不匹配' = 5,
 }
