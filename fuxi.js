@@ -1,6 +1,6 @@
 // 投递状态
 export const jobStageStatus = {
-  1: '投递',
+  1: '简历筛选',
   2: '笔试',
   3: '面试',
   4: '获得offer',
