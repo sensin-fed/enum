@@ -3,7 +3,7 @@
  * @Author: hemanyuan
  * @Date: 2019-07-25 12:22:26
  * @LastEditors  : liujians
- * @LastEditTime : 2020-01-20 17:21:35
+ * @LastEditTime : 2020-01-20 18:34:47
  */
 import * as ulms from './ulms'
 import * as pcms from './pcms'
@@ -69,7 +69,7 @@ export const orderStatus = {
 export const passportUrl = {
   dev: 'http://localhost:3004',
   test: 'http://passport.test.sensin-tech.cn/',
-  staging: 'http://passport.staging.offerxiansheng.com',
+  staging: 'http://passport.staging.sensin-tech.cn',
   production: 'https://passport.offerxiansheng.com'
 }
 
