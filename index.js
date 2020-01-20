@@ -2,8 +2,8 @@
  * @Description:
  * @Author: hemanyuan
  * @Date: 2019-07-25 12:22:26
- * @LastEditors: liujians
- * @LastEditTime: 2019-08-14 10:12:05
+ * @LastEditors  : liujians
+ * @LastEditTime : 2020-01-20 17:21:35
  */
 import * as ulms from './ulms'
 import * as pcms from './pcms'
@@ -69,6 +69,7 @@ export const orderStatus = {
 export const passportUrl = {
   dev: 'http://localhost:3004',
   test: 'http://passport.test.sensin-tech.cn/',
+  staging: 'http://passport.staging.offerxiansheng.com',
   production: 'https://passport.offerxiansheng.com'
 }
 
