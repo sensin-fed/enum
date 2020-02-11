@@ -32,4 +32,16 @@ export const offerRate = {
   5: '非常满意',
 };
 
+// offer满意度
+export const newStudentApprovalStatus = {
+  '10': '销售审批中',
+  '11': '销售审批未通过',
+  '20': '财务审批中',
+  '21': '财务审批未通过',
+  '30': '后期审批中',
+  '31': '后期审批未通过',
+  '40': '已撤回',
+  '50': '报名成功',
+};
+
 export default {};
