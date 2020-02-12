@@ -32,7 +32,7 @@ export const offerRate = {
   5: '非常满意',
 };
 
-// offer满意度
+// 新生审批流程状态
 export const newStudentApprovalStatus = {
   '10': '销售审批中',
   '11': '销售审批未通过',
