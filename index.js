@@ -74,6 +74,16 @@ export const passportUrl = {
 }
 
 /**
+ * @description 统一登录页个环境url
+ */
+export const weCareerPassportUrl = {
+  dev: 'http://localhost:3007',
+  test: 'http://passport.test.wecareer.com.cn/',
+  staging: 'http://passport.staging.wecareer.com.cn',
+  production: 'https://passport.wecareer.com.cn'
+}
+
+/**
  * @description pcms和ulms里的私有枚举
  */
 export default {
